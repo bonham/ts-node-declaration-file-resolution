@@ -4,7 +4,14 @@
     "module": "Node16",
     "outDir": "dist",
     "strict": true,
-    "declaration": true
+    "noImplicitAny": true,
+    "declaration": true,
+    "types": []
   },
-  "include": ["fitsdk.d.ts"]
+  "files": [
+    "src/fitsdk.d.ts"
+  ],
+  "ts-node": {
+    "files": true
+  }
 }

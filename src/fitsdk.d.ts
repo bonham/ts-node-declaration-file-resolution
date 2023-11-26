@@ -51,10 +51,15 @@ declare module '@garmin/fitsdk' {
   }
 
   export class Decoder {
+
+    static isFIT(stream: Stream): boolean;
+
     constructor(stream: Stream);
+
     isFIT(): boolean;
     checkIntegrity(): boolean;
     read(): { messages: FitMessages, errors: any };
   }
+
 
 }

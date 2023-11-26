@@ -2,6 +2,9 @@
   "compilerOptions": {
     "verbatimModuleSyntax": true,
     "module": "Node16",
-    "outDir": "dist"
-  }
+    "outDir": "dist",
+    "strict": true,
+    "declaration": true
+  },
+  "include": ["fitsdk.d.ts"]
 }

@@ -1,8 +1,7 @@
 {
-  "name": "hello-ts-node-import-non-typed-npm-module",
+  "name": "ts-node-declaration-file-resolution",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "ts-node --esm ./src/main.ts",

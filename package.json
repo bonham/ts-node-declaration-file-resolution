@@ -1,0 +1,22 @@
+{
+  "name": "hello-ts-node-import-non-typed-npm-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node --esm ./src/main.ts",
+    "build": "tsc",
+    "run": "tsc && node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@garmin/fitsdk": "^21.126.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "verbatimModuleSyntax": true,
+    "module": "Node16",
+    "outDir": "dist"
+  }
+}
